@@ -15,14 +15,15 @@
 		8D03DCF6190849BC0045AAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DCF5190849BC0045AAE4 /* AppDelegate.m */; };
 		8D03DCF9190849BC0045AAE4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D03DCF7190849BC0045AAE4 /* Main_iPhone.storyboard */; };
 		8D03DCFC190849BC0045AAE4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D03DCFA190849BC0045AAE4 /* Main_iPad.storyboard */; };
-		8D03DCFF190849BC0045AAE4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DCFE190849BC0045AAE4 /* FirstViewController.m */; };
-		8D03DD02190849BC0045AAE4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DD01190849BC0045AAE4 /* SecondViewController.m */; };
 		8D03DD04190849BC0045AAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D03DD03190849BC0045AAE4 /* Images.xcassets */; };
 		8D03DD0B190849BC0045AAE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D03DD0A190849BC0045AAE4 /* XCTest.framework */; };
 		8D03DD0C190849BC0045AAE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D03DCE5190849BC0045AAE4 /* Foundation.framework */; };
 		8D03DD0D190849BC0045AAE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D03DCE9190849BC0045AAE4 /* UIKit.framework */; };
 		8D03DD15190849BC0045AAE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D03DD13190849BC0045AAE4 /* InfoPlist.strings */; };
 		8D03DD17190849BC0045AAE4 /* iOS_Broomball_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DD16190849BC0045AAE4 /* iOS_Broomball_AppTests.m */; };
+		8D03DD2519084ECB0045AAE4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DD2419084ECB0045AAE4 /* NewsViewController.m */; };
+		8D03DD2819084EE10045AAE4 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DD2719084EE10045AAE4 /* TeamViewController.m */; };
+		8D03DD2B19084EF00045AAE4 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DD2A19084EF00045AAE4 /* ScheduleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +49,18 @@
 		8D03DCF5190849BC0045AAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D03DCF8190849BC0045AAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		8D03DCFB190849BC0045AAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8D03DCFD190849BC0045AAE4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8D03DCFE190849BC0045AAE4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8D03DD00190849BC0045AAE4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8D03DD01190849BC0045AAE4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8D03DD03190849BC0045AAE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D03DD09190849BC0045AAE4 /* iOS Broomball AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Broomball AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D03DD0A190849BC0045AAE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8D03DD12190849BC0045AAE4 /* iOS Broomball AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Broomball AppTests-Info.plist"; sourceTree = "<group>"; };
 		8D03DD14190849BC0045AAE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D03DD16190849BC0045AAE4 /* iOS_Broomball_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Broomball_AppTests.m; sourceTree = "<group>"; };
+		8D03DD2319084ECB0045AAE4 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
+		8D03DD2419084ECB0045AAE4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
+		8D03DD2619084EE10045AAE4 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		8D03DD2719084EE10045AAE4 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		8D03DD2919084EF00045AAE4 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = ../ScheduleViewController.h; sourceTree = "<group>"; };
+		8D03DD2A19084EF00045AAE4 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = ../ScheduleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +120,16 @@
 		8D03DCEB190849BC0045AAE4 /* iOS Broomball App */ = {
 			isa = PBXGroup;
 			children = (
+				8D03DD2919084EF00045AAE4 /* ScheduleViewController.h */,
+				8D03DD2A19084EF00045AAE4 /* ScheduleViewController.m */,
+				8D03DD2619084EE10045AAE4 /* TeamViewController.h */,
+				8D03DD2719084EE10045AAE4 /* TeamViewController.m */,
+				8D03DD2319084ECB0045AAE4 /* NewsViewController.h */,
+				8D03DD2419084ECB0045AAE4 /* NewsViewController.m */,
 				8D03DCF4190849BC0045AAE4 /* AppDelegate.h */,
 				8D03DCF5190849BC0045AAE4 /* AppDelegate.m */,
 				8D03DCF7190849BC0045AAE4 /* Main_iPhone.storyboard */,
 				8D03DCFA190849BC0045AAE4 /* Main_iPad.storyboard */,
-				8D03DCFD190849BC0045AAE4 /* FirstViewController.h */,
-				8D03DCFE190849BC0045AAE4 /* FirstViewController.m */,
-				8D03DD00190849BC0045AAE4 /* SecondViewController.h */,
-				8D03DD01190849BC0045AAE4 /* SecondViewController.m */,
 				8D03DD03190849BC0045AAE4 /* Images.xcassets */,
 				8D03DCEC190849BC0045AAE4 /* Supporting Files */,
 			);
@@ -258,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D03DD02190849BC0045AAE4 /* SecondViewController.m in Sources */,
+				8D03DD2519084ECB0045AAE4 /* NewsViewController.m in Sources */,
+				8D03DD2819084EE10045AAE4 /* TeamViewController.m in Sources */,
+				8D03DD2B19084EF00045AAE4 /* ScheduleViewController.m in Sources */,
 				8D03DCF6190849BC0045AAE4 /* AppDelegate.m in Sources */,
-				8D03DCFF190849BC0045AAE4 /* FirstViewController.m in Sources */,
 				8D03DCF2190849BC0045AAE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
